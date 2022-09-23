@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("images/bg001.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.title{
+	font-size: 36px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow: 2px 2px 3px grey;
+	line-height: 0px;
+}
+.div-main{
+	margin:0 auto;
+	width: 1920px;
+	height: 2000px;
+	/* background-color: beige; */
+	padding: 20px;
+	text-align: center;
+	/* align-items: center; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.div-parent{
+	width: 1620px;
+	/* background-color: rgb(255, 255, 255, 0.2); */
+	height: 840px;
+	margin: 0 auto;
+	padding: 20px;
+	/* align-items: center; */
+	/* opacity: 0.4; */
+	
+}
+/* div-main::div-bg{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+} */
+
+.div-no1{
+	width: 600px;
+	height:100%;
+	background-color: rgb(255, 255, 255, 0.2);
+	margin:0 0;
+	float: left;
+}
+
+
+.div-no1-son1{
+	/* background-color: white; */
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 20px auto;
+	
+}
+
+.div-no1-son1 img{
+	width: 200px;	height:200px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.div-no1-son2{
+	width: 310px;	height: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	/* opacity: 0.5; */
+	margin: 0 auto;
+	/* padding: 10px; */
+	padding: 0;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.div-no1-son2 div{
+	width: 100px;
+	/* background-color: aquamarine; */
+	/* line-height: 0px; */
+	/* font-size: 120%; */
+	margin: 0;
+	padding: 0;
+}
+
+/* 数字 */
+.div-no1-son2 p{
+	/* background-color: antiquewhite; */
+	height: 25px;
+	text-align: center;
+	font-size: 100%;
+	border: none;
+	margin: 0;
+}
+
+/* 文字 */
+
+.div-no1-son2 a{
+	font-style: inherit;
+	font-size: 100%;
+}
+
+
+.div-no1-son3{
+	width: 310px;	margin: 40px auto;
+	line-height: 20px;
+}
+.div-no1-son3 div{
+	width: 100%;
+	text-align: center;
+	}
+	
+.div-no1-son3 p{
+	color: rgba(0, 0, 0, 0.8);	
+	margin: 10px auto;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 0;
+	
+	font-weight: 600;
+	font-size: 100%;	
+	
+	
+	border-color: rgba(0, 0, 0, 1);	
+	border-style: none inset  none inset;
+	
+	background-color: rgba(255, 255, 255, 0.3);
+	/* font-weight  100-900  nomal=400 bold=700 */
+	
+	/* 修改了font-size属性过后再修改color会无效果 注意先后顺序*/	
+}
+
+/* 第二部分 */
+.div-no2{
+	width: 1000px;
+	height: 410px;
+	background-color: rgb(255, 255, 255, 0.2);
+	margin-left: 620px;
+	margin-bottom: 20px;
+}
+
+.div-no2-son1{
+	width: 600px;
+	height: 390px;
+	/* background-color: antiquewhite; */
+	/* opacity: 0.5; */
+	margin: 10px;
+	float: left;
+	display: table-cell;
+	text-align: center;
+	vertical-align: center;
+	
+}
+
+.div-no2-son2{
+	width: 360px;
+	height: 390px;
+	/* background-color: cadetblue; */
+	float: right;
+	margin:10px;
+	
+}
+
+.div-no2-son2 div{
+	width: 100%;
+	max-height: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.div-no2-son2 div iframe{
+	width: 100%;
+	max-height: 100%;
+	border: none;
+	overflow: hidden;
+	/* -webkit-overflow-scrolling: no; */
+	/* background-color: antiquewhite; */
+}
+
+.div-no2-title{
+	font-size: 30px;
+	color: black;
+	font-weight: 600;
+	text-shadow: 2px 2px 5px white;
+	line-height: 0px;
+}
+
+.div-1{
+	/* background-color: aqua; */
+	text-align: right;
+	text-decoration: none;
+}
+
+.div-no2 a{
+	text-decoration: none;
+	color: black;
+	text-shadow: 2px 2px 6px white;
+}
+/* 
+.div-no2-son2 div iframe::-webkit-scrollbar {
+   width: 10px;
+   height: 0px;
+   display: none;
+}
+ */
+
+/* 第三部分 */
+.div-no3{
+	width: 1000px;
+	height: 410px;
+	background-color: rgb(255, 255, 222, 0.3);
+	margin-left: 620px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.div-no3 a{
+	text-decoration: none;
+	color: black;
+	text-shadow: 2px 2px 6px white;
+}
+
+.div-no3-left{
+	/* background-color: rgba(222, 222, 222, 0.3); */
+	width:300px;
+	height: 390px;	
+	float: left;
+}
+
+.div-no3-left ul{
+	list-style-type: none;
+	text-align: left;
+	font-size: 120%;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+.div-no3-left li{
+	/* background-color: rgba(2, 2, 2, 0.2); */
+	margin: 10px auto;
+	border-style: none none none inset;
+	border-color: black;
+}
+
+
+.div-no3-right{
+	background-color: beige;
+	display: block;
+	width:auto;
+	height: 390px;
+	margin-left: 310px;
+}
+
+.div-no3-right embed{
+	width: 100%; 
+	height: 100%;
+	
+}
+
+
+
+.div-radius{
+	border-radius: 10px;	
+}
+
+.demo::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
+.demo {
+  scrollbar-width: none; /* firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
